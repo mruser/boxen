@@ -54,17 +54,11 @@ node default {
   include git
   include hub
   include nginx
-  include nvm
 
   # fail if FDE is not enabled
   if $::root_encrypted == 'no' {
     fail('Please enable full disk encryption and try again')
   }
-
-  # node versions
-  include nodejs::0-4
-  include nodejs::0-6
-  include nodejs::0-8
 
   # default ruby versions
   include ruby::1_8_7
@@ -85,4 +79,27 @@ node default {
     ensure => link,
     target => $boxen::config::repodir
   }
+
+  include iterm2::dev
+  # from the stable channel
+  include firefox
+
+  include gitx
+  
+  include skype
+
+  include cyberduck
+
+  include tmux
+
+  include chrome
+
+  include virtualbox
+
+  include macvim
+
+  include graphviz
+
+  include erlang
+  
 }

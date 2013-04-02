@@ -14,6 +14,11 @@ end
 # config. Required.
 
 github "boxen", "1.2.0"
+github "pkgconfig", "1.0.0"
+github "swig", "1.0.0"
+github "pcre", "1.0.0"
+github "autoconf", "1.0.0"
+github "libtool", "1.0.0"
 
 # Core modules for a basic development environment. You can replace
 # some/most of these if you want, but it's not recommended.
@@ -25,11 +30,23 @@ github "homebrew", "1.1.2"
 github "hub",      "1.0.0"
 github "inifile",  "0.9.0", :repo => "cprice-puppet/puppetlabs-inifile"
 github "nginx",    "1.1.0"
-github "nodejs",   "1.0.0"
-github "nvm",      "1.0.0"
 github "ruby",     "3.1.0"
 github "stdlib",   "3.0.0", :repo => "puppetlabs/puppetlabs-stdlib"
 github "sudo",     "1.0.0"
 
 # Optional/custom modules. There are tons available at
 # https://github.com/boxen.
+
+github "iterm2",    "1.0.2"
+github "firefox",  "1.0.5"
+github "gitx",     "1.2.0"
+github "skype",    "1.0.2"
+github "cyberduck", "1.0.0"
+github "tmux",     "1.0.1"
+github "chrome",   "1.1.0"
+github "virtualbox", "1.0.1"
+github "macvim",   "1.0.0"
+github "graphviz", "1.0.0"
+github "erlang",   "1.0.0"
+github "adium",    "1.0.1"
+
