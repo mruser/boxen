@@ -71,7 +71,15 @@ node default {
     [
       'ack',
       'findutils',
-      'gnu-tar'
+      'gnu-tar',
+      'coreutils',
+      'grc',
+      'pwgen',
+      'pass',
+      'gpg',
+      'GraphicsMagick',
+      'ctags',
+      'htop'
     ]:
   }
 
@@ -85,7 +93,7 @@ node default {
   include firefox
 
   include gitx
-  
+
   include skype
 
   include cyberduck
@@ -101,5 +109,5 @@ node default {
   include graphviz
 
   include erlang
-  
+
 }
